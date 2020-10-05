@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-size: 62.5%;
+  background-color: #f0f0f0;
+  height: 100vh;
+  font-family: "Lora", Georgia, "Times New Roman", Times, serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
+  height: 100%;
+}
+
+.container {
+  max-width: 80rem;
+  height: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container {
+  max-width: 30rem;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+.card {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kanji,
+.kana {
+  font-family: "Hiragino Mincho Pro", "Yu Mincho", "Source Han Sans Japanese",
+    "NotoSansCJK", "Meiryo", serif;
+}
+
+.btn-container {
+  margin-top: 1.5rem;
 }
