@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "eng": "bird",
+      "kanji": "鳥",
+      "kana": "とり"
+    },
+    {
+      "id": 2,
+      "eng": "box",
+      "kanji": "箱",
+      "kana": "はこ"
+    },
+    {
+      "id": 3,
+      "eng": "to meet",
+      "kanji": "会う",
+      "kana": "あう"
+    },
+    {
+      "id": 4,
+      "eng": "blue",
+      "kanji": "青い",
+      "kana": "あおい"
+    },
+    {
+      "id": 5,
+      "eng": "autumn",
+      "kanji": "秋",
+      "kana": "あき"
+    },
+    {
+      "id": 6,
+      "eng": "bright,light",
+      "kanji": "明るい",
+      "kana": "あかるい"
+    },
+    {
+      "id": 7,
+      "eng": "open",
+      "kanji": "開く",
+      "kana": "あく"
+    },
+    {
+      "id": 8,
+      "eng": "to open",
+      "kanji": "開ける",
+      "kana": "あける"
+    },
+    {
+      "id": 9,
+      "eng": "morning",
+      "kanji": "朝",
+      "kana": "あさ"
+    },
+    {
+      "id": 10,
+      "eng": "breakfast",
+      "kanji": "朝ご飯",
+      "kana": "あさごはん"
+    }
+  ]
+}

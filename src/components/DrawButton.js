@@ -1,3 +1,9 @@
+/*
+ * @Author: Chen Yang
+ * @Date: 2020-10-05 12:46:38
+ * @Last Modified by:   Chen Yang
+ * @Last Modified time: 2020-10-05 12:46:38
+ */
 import React from "react";
 
 const DrawButton = ({ handleDrawCard }) => {
