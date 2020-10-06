@@ -32,19 +32,44 @@ body {
 }
 
 .card-container {
-  max-width: 30rem;
-  text-align: center;
-  background-color: #ffffff;
-  padding: 2rem;
-  font-size: 1.6rem;
-}
-.card {
   width: 15rem;
   height: 15rem;
+  text-align: center;
+  font-size: 1.6rem;
+  transition: ease-in;
+  position: relative;
+  perspective: 800px;
+  cursor: pointer;
+}
+.card {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  border: 0.1rem solid rgba(109, 100, 87, 0.7);
+  transform-style: preserve-3d;
+  transition: all 0.4s ease-in-out;
+}
+.card:hover {
+  transform: rotateY(180deg);
+  transition: all 0.4s ease-in-out;
+}
+.card > div {
+  position: absolute;
+  width: 14.8rem;
+  height: 14.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.card .front {
+  backface-visibility: hidden;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.card .back {
+  transform: rotateY(180deg);
+  background-color: #ffffff;
 }
 .kanji,
 .kana {
