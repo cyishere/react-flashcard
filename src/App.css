@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --clr-purple: #562151;
+  --clr-bgLight: #ffe9ca;
+  --clr-orange: #d7713b;
+  --clr-textBrown: #6d6457;
+}
+
 html,
 body {
   margin: 0;
@@ -12,13 +19,21 @@ body {
 
 body {
   font-size: 62.5%;
-  background-color: #ffe9ca;
+  background-color: var(--clr-bgLight);
   height: 100vh;
   font-family: "Lora", Georgia, "Times New Roman", Times, serif;
 }
 
 #root {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-orange);
+}
+a:hover {
+  color: var(--clr-purple);
 }
 
 .container {
@@ -77,11 +92,11 @@ body {
     "NotoSansCJK", "Meiryo", serif;
 }
 .kanji {
-  color: #562151;
+  color: var(--clr-purple);
   font-size: 2rem;
 }
 .kana {
-  color: #d7713b;
+  color: var(--clr-orange);
   font-size: 1.4rem;
 }
 .none {
@@ -90,6 +105,7 @@ body {
 
 .btn-container {
   margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .btn {
   background-color: rgb(246, 137, 135);
@@ -104,4 +120,20 @@ body {
 }
 button:focus {
   outline: none;
+}
+
+.footer {
+  font-size: 1.2rem;
+  color: var(--clr-textBrown);
+}
+.footer a::before {
+  content: "·";
+  display: inline-block;
+  margin-right: 0.6rem;
+}
+.footer a::after {
+  content: "·";
+  display: inline-block;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
 }

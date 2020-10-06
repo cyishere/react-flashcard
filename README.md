@@ -2,7 +2,7 @@
 
 This is a simple flashcard app made by React. And use the Firebase as backend. Here's a screenshot of this app:
 
-![Flashcard app screenshot](./images/screenshot.gif)
+![Flashcard app screenshot](./src/images/screenshot.gif)
 
 ## Use This App
 

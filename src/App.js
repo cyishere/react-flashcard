@@ -3,7 +3,7 @@
  * @Author: Chen Yang
  * @Date: 2020-10-05 11:06:15
  * @Last Modified by: Chen Yang
- * @Last Modified time: 2020-10-06 13:53:56
+ * @Last Modified time: 2020-10-06 14:02:55
  */
 import React, { useState, useEffect } from "react";
 import "./App.css";
@@ -49,6 +49,10 @@ function App() {
     <div className="container">
       <Card card={currentCard} />
       <DrawButton handleDrawCard={handleDrawCard} />
+      <footer className="footer">
+        <a href="https://github.com/cyishere/react-flashcard">about</a>&copy;
+        cyishere.github.io
+      </footer>
     </div>
   );
 }
