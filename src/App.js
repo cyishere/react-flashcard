@@ -51,7 +51,7 @@ function App() {
       <DrawButton handleDrawCard={handleDrawCard} />
       <footer className="footer">
         <a href="https://github.com/cyishere/react-flashcard">about</a>&copy;
-        cyishere.github.io
+        cyishere.dev
       </footer>
     </div>
   );
